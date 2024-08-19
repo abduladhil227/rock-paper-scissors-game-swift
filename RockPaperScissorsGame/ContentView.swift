@@ -106,7 +106,6 @@ struct ContentView: View {
         
     
     func choiceTapped(userChoice: String, appChoice: String, moveChoice: Bool ){
-        print(userChoice, appChoice,correctAnswer,moveChoice)
         if(userChoice == "👊🏻" && appChoice == "✌🏻"  ||
            userChoice == "✌🏻" && appChoice == "✋🏻"  ||
            userChoice == "✋🏻" && appChoice == "👊🏻"
